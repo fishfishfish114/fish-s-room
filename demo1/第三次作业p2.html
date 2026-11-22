@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型</title>
+    <style> 
+    body{
+        
+        min-height: 100vh;
+
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .demo img{
+        height:250px;
+        width:auto;
+        display:block;
+        transition:height 0.2s ease ;
+    }
+    
+    .demo img:hover{
+        height:350px;
+        width:auto;
+    }
+       
+    </style>
+</head>
+<body>
+    <div class="demo"> <img src="../jimi.png" alt=" " height="250" ></div>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .zuoye{
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+        }
+
+        .box1{
+            width:320px;
+            height:500px;
+            background-color: aquamarine;
+            margin-top:40px;
+            flex-shrink:0;
+        }
+        .box2{
+            width: 320px;
+            height:300px;
+            background-color: green;
+            margin-top:80px;
+
+        }
+        .box3{
+            width:320px;
+            height:100px;
+            background-color: gold;
+
+        }
+        .box4{
+            width:320px;
+            height:600px;
+            background-color: red;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="zuoye">
+        <div class="box1">
+    一号盒子
+    <p>我始终保持原大小，不缩放。</p>
+    </div>
+    <div class="box2">
+  二号盒子
+  <p>浏览器界面变宽时，我占满其他元素剩下的所有空间</p>
+    </div>
+    <div class="box3">
+    三号盒子
+    <p>我和四号盒子的顶部对齐</p>
+    </div>
+    <div class="box4">
+    四号盒子
+    <p>浏览器界面变窄时，我缩窄的速度要比二、三号盒子快</p>
+</div>
+
+    
+    
+</body>
+</html>
